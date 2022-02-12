@@ -2,7 +2,7 @@ import asyncio
 import yt_dlp
 import psutil
 
-from Music.config import GROUP, CHANNEL
+from Music.config import GROUP, OWNER
 from Music import (
     ASSID,
     BOT_ID,
@@ -40,13 +40,13 @@ def start_pannel():
     buttons = [
         [
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/Errornihbos"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ​ 📚", url="https://telegra.ph/Hiroshi-12-28-2"),
+            InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ​", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
         [
-            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/UserbotMaps/musicsantai"),
+            InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/UserbotMaps/musicsantai"),
         ],
     ]
     return (
@@ -63,13 +63,13 @@ pstart_markup = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/Errornihbos"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ ​📚", url="https://telegra.ph/Hiroshi-12-28-2"),
+            InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ ", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
         [
-            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/UserbotMaps/musicsantai"),
+            InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/UserbotMaps/musicsantai"),
         ],
     ]
 )
