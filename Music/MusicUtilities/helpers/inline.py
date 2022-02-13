@@ -162,13 +162,13 @@ def search_markup2(
         ],
         [
             InlineKeyboardButton(
-                text="«««", callback_data=f"popat 2|{query}|{user_id}"
+                text="⪻", callback_data=f"popat 2|{query}|{user_id}"
             ),
             InlineKeyboardButton(
                 text="🗑 Close", callback_data=f"ppcl2 smex|{user_id}"
             ),
             InlineKeyboardButton(
-                text="»»»", callback_data=f"popat 1|{query}|{user_id}"
+                text="⪼", callback_data=f"popat 1|{query}|{user_id}"
             ),
         ],
     ]
@@ -187,7 +187,7 @@ start_keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "📚 ᴅᴀꜰᴛᴀʀ ᴘᴇʀɪɴᴛᴀʜ​ 📚", url="https://telegra.ph/Hiroshi-12-28-2"
+                "ᴅᴀꜰᴛᴀʀ ᴘᴇʀɪɴᴛᴀʜ", url="https://telegra.ph/Hiroshi-12-28-2"
             )
         ],
         [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close2")],
