@@ -43,7 +43,7 @@ def start_pannel():
             InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/Errornihbos"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/UpdateManager"),
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ​", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
         [
@@ -67,11 +67,11 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/Errornihbos"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/UpdateManager"),
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
         [
-            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/UserbotMaps/musicsantai"),
+            InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/UserbotMaps/musicsantai"),
         ],
     ]
 )
