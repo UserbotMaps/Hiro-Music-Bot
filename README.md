@@ -1,7 +1,7 @@
-<h2 align="centre">Music Santai Player</h2>
+<h2 align="centre">Skoyi Music Player</h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/c262a37b7fbf7ffa663d4.jpg">
+  <img src="https://telegra.ph/file/281dcbc94c5c721395a29.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
