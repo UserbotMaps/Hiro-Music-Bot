@@ -56,7 +56,7 @@ async def load_start():
     #Kalau clone atau fork jangan di hapus ya tolol
     await client.join_chat("hiroshisupport")
     await client.join_chat("bombleebas")
-    await client.join_chat("demonits")
+    await client.join_chat("hiroshimabes")
     print("[INFO]: STARTED")
     
    
