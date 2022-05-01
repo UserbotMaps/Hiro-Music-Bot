@@ -487,26 +487,26 @@ Saya perlu menjadi admin dengan beberapa izin:
             photo=thumb,
             caption= 
             f"""
-**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋᴏɴᴛᴏʟ 👀**
+**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ 👀**
 
 ¹ <b>{title1[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
   ╚ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -828,26 +828,26 @@ async def popat(_,CallbackQuery):
         buttons = search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, duration9, duration10 ,user_id, query)
         await CallbackQuery.edit_message_text(
             f"""
-<b>**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋᴏɴᴛᴏʟ 👀**</b>
+<b>**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ 👀**</b>
 
 ⁶ <b>{title6[:60]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 
 ⁷ <b>{title7[:60]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 
 ⁸ <b>{title8[:60]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 
 ⁹ <b>{title9[:60]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 
 ¹⁰ <b>{title10[:60]}</b>
-   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+   ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
    ╚ ❒ **{BOT_NAME}**
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -858,26 +858,26 @@ async def popat(_,CallbackQuery):
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         await CallbackQuery.edit_message_text(
             f"""
-**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋᴏɴᴛᴏʟ 👀**
+**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ 👀**
 
 ¹ <b>{title1[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
   ╚ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:65]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ╠ ❒ [ɪɴғᴏʀᴍᴀsɪ ʙᴏᴛ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╚ ❒ **{BOT_NAME}**
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -895,7 +895,7 @@ async def play_playlist_cmd(_, message):
     buttons = playlist_markup(user_name, user_id)
     await message.reply_photo(
     photo=thumb, 
-    caption=("**__Music's Playlist Feature__**\n\nSelect the Playlist you want to play!."),    
+    caption=("**Music's Playlist Feature**\n\nSelect the Playlist you want to play!."),    
     reply_markup=InlineKeyboardMarkup(buttons),
     )
     return
