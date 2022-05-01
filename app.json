@@ -14,6 +14,11 @@
             "required": true,
             "value": "1139515427"
         },
+        "OWNER_USERNAME": {
+            "description": "isi dengan Username telegram Anda sebagai pemilik bot",
+            "required": true,
+            "value": "HiroHelper"
+        },
         "ASS_ID": {
             "description": "isi dengan telegram id akun assistant",
             "required": true,
