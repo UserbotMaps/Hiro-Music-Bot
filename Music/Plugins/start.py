@@ -8,7 +8,8 @@ from Music import (
     BOT_ID,
     BOT_NAME,
     BOT_USERNAME,
-    OWNER,
+    USERNAME,
+    OWNER, 
     SUDOERS,
     app,
 )
@@ -43,7 +44,7 @@ def start_pannel():
             InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/fairysils"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/{USERNAME}"), 
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ​", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
         [
@@ -67,7 +68,7 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/fairysils"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/{USERNAME}"),
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
         [
