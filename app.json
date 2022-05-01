@@ -1,8 +1,8 @@
 {
-    "name": "MusicSantai",
+    "name": "HiroMusicBot",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/UserbotMaps/musicsantai",
+    "repository": "https://github.com/UserbotMaps/Hiro-Music-Bot",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -47,12 +47,12 @@
         "GROUP": {
             "description": "Isi dengan username group tanpa @",
             "required": true,
-            "value": "cari_temen_jodoh_random"
+            "value": "hiroshisupport"
         },
          "CHANNEL": {
             "description": "Isi dengan username channel tanpa @",
             "required": true,
-            "value": "demonits"
+            "value": "hiroshimabes"
         },
         "SUDO_USERS": {
             "description": "isi dengan user id yang dapat mengakses semua fungsi di bot anda (dipisahkan dengan spasi).",
@@ -71,7 +71,7 @@
         },
         "UPSTREAM_REPO": {
             "description": "Jika Anda tidak tahu ini, Biarkan apa adanya",
-            "value": "https://github.com/UserbotMaps/musicsantai",
+            "value": "https://github.com/UserbotMaps/Hiro-Music-Bot",
             "required": true
         },
         "UPSTREAM_BRANCH": {
