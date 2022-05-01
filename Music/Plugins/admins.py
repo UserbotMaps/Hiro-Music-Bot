@@ -122,7 +122,7 @@ async def pause_cmd(_, message):
 @app.on_message(filters.command(["resume", f"resume@{BOT_USERNAME}", "rs"]))
 async def stop_cmd(_, message): 
     if message.sender_chat:
-        return await message.reply_text("Kamu adalah __Admin Anonim__!\nKembalikan ke Akun Pengguna.") 
+        return await message.reply_text("Kamu adalah Admin Anonim!\nKembalikan ke Akun Pengguna.") 
     permission = "can_manage_voice_chats"
     m = await adminsOnly(permission, message)
     if m == 1:
@@ -141,7 +141,7 @@ async def stop_cmd(_, message):
 @app.on_message(filters.command(["end", f"end@{BOT_USERNAME}", "e"]))
 async def stop_cmd(_, message): 
     if message.sender_chat:
-        return await message.reply_text("Kamu adalah __Admin Anonim__!\nKembalikan ke Akun Pengguna.") 
+        return await message.reply_text("Kamu adalah Admin Anonim!\nKembalikan ke Akun Pengguna.") 
     permission = "can_manage_voice_chats"
     m = await adminsOnly(permission, message)
     if m == 1:
@@ -162,7 +162,7 @@ async def stop_cmd(_, message):
 @app.on_message(filters.command(["skip", f"skip@{BOT_USERNAME}", "sk"]))
 async def stop_cmd(_, message): 
     if message.sender_chat:
-        return await message.reply_text("Kamu adalah __Admin Anonim__!\nKembalikan ke Akun Pengguna.") 
+        return await message.reply_text("Kamu adalah Admin Anonim!\nKembalikan ke Akun Pengguna.") 
     permission = "can_manage_voice_chats"
     m = await adminsOnly(permission, message)
     if m == 1:
