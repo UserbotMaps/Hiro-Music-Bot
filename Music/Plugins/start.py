@@ -43,7 +43,7 @@ def start_pannel():
             InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/sadcall"), 
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/skoyii"), 
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ​", url="https://telegra.ph/Icall-05-28"),
         ],
         [
@@ -67,7 +67,7 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/sadcall"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/skoyiu"),
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", url="https://telegra.ph/Icall-05-28"),
         ],
         [
