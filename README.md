@@ -1,7 +1,7 @@
-<h2 align="centre">Hiro Music Bot</h2>
+<h2 align="centre">Cts Music Bot</h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/558b86841f1809c0f7487.jpg">
+  <img src="https://telegra.ph/file/2e0c9e3c9903d5d7c8f17.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
