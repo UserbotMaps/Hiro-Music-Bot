@@ -3,7 +3,7 @@
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "kata kunci" : [ "musik" , "obrolan suara" , "telegram" ],
     
-    "repositori" : https://github.com/Lependosa/Cts-Music-Bot/tree/Lependosa-patch-1" ,
+    "repositori" : "https : //github.com/Lependosa/Cts-Music-Bot/tree/Lependosa-patch-1" ,
     "tumpukan" : "wadah" ,
     "env" : {
         "SESSION_NAME" : {
