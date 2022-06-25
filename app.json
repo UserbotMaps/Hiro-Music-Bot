@@ -1,11 +1,12 @@
 {
     "name": "HiroMusicBot",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
-    "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/UserbotMaps/Hiro-Music-Bot",
-    "stack": "container",
-    "env": {
-        "SESSION_NAME": {
+    "kata kunci" : [ "musik" , "obrolan suara" , "telegram" ],
+    
+    "repositori" : https://github.com/Lependosa/Cts-Music-Bot/tree/Lependosa-patch-1" ,
+    "tumpukan" : "wadah" ,
+    "env" : {
+        "SESSION_NAME" : {
             "description": "isi dengan string sesi pyrogram dari akun",
             "required": true
         },
@@ -71,7 +72,7 @@
         },
         "UPSTREAM_REPO": {
             "description": "Jika Anda tidak tahu ini, Biarkan apa adanya",
-            "value": "https://github.com/UserbotMaps/Hiro-Music-Bot",
+            "nilai" : "https://github.com/Lependosa/Cts-Music-Bot/tree/Lependosa-patch-1" ,
             "required": true
         },
         "UPSTREAM_BRANCH": {
